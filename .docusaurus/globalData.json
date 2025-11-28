@@ -1,0 +1,205 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/gef-docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/gef-docs/next",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/next/code-recipe/gef-jdbc/"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/next/code-recipe/gef-report/"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/next/code-recipe/gef-ria/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {}
+          }
+        },
+        {
+          "name": "26.4.0",
+          "label": "26.4.0",
+          "isLast": true,
+          "path": "/gef-docs/",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/code-recipe/gef-jdbc/"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/code-recipe/gef-report/"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/code-recipe/gef-ria/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {}
+          }
+        },
+        {
+          "name": "25.9.0",
+          "label": "25.9.0",
+          "isLast": false,
+          "path": "/gef-docs/25.9.0",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/25.9.0/code-recipe/gef-jdbc/"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/25.9.0/code-recipe/gef-report/"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/25.9.0/code-recipe/gef-ria/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {}
+          }
+        },
+        {
+          "name": "24.4.0",
+          "label": "24.4.0",
+          "isLast": false,
+          "path": "/gef-docs/24.4.0",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/24.4.0/code-recipe/gef-jdbc/",
+              "sidebar": "codeRecipeJdbcSidebar"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/24.4.0/code-recipe/gef-report/",
+              "sidebar": "codeRecipeReportSidebar"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/24.4.0/code-recipe/gef-ria/",
+              "sidebar": "codeRecipeRoaSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "coreSidebar": {},
+            "dataAccessSidebar": {},
+            "freeQueryExportSidebar": {},
+            "jdbcSidebar": {},
+            "mvcSidebar": {},
+            "riaSidebar": {},
+            "smartSidebar": {},
+            "thinSidebar": {},
+            "installGuideAtoSidebar": {},
+            "installGuideAWMSidebar": {},
+            "installGuideIWDSidebar": {},
+            "installGuideSmartSidebar": {},
+            "installGuideOWOSidebar": {},
+            "installGuideWebSidebar": {},
+            "installGuideRichSidebar": {},
+            "codeRecipeJdbcSidebar": {
+              "link": {
+                "path": "/gef-docs/24.4.0/code-recipe/gef-jdbc/",
+                "label": "code-recipe/gef-jdbc/index"
+              }
+            },
+            "codeRecipeReportSidebar": {
+              "link": {
+                "path": "/gef-docs/24.4.0/code-recipe/gef-report/",
+                "label": "code-recipe/gef-report/index"
+              }
+            },
+            "codeRecipeRoaSidebar": {
+              "link": {
+                "path": "/gef-docs/24.4.0/code-recipe/gef-ria/",
+                "label": "code-recipe/gef-ria/index"
+              }
+            }
+          }
+        },
+        {
+          "name": "3.21.0",
+          "label": "3.21.0",
+          "isLast": false,
+          "path": "/gef-docs/3.21.0",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/3.21.0/code-recipe/gef-jdbc/",
+              "sidebar": "codeRecipeJdbcSidebar"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/3.21.0/code-recipe/gef-report/",
+              "sidebar": "codeRecipeReportSidebar"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/3.21.0/code-recipe/gef-ria/",
+              "sidebar": "codeRecipeRoaSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "coreSidebar": {},
+            "dataAccessSidebar": {},
+            "freeQueryExportSidebar": {},
+            "jdbcSidebar": {},
+            "mvcSidebar": {},
+            "riaSidebar": {},
+            "smartSidebar": {},
+            "thinSidebar": {},
+            "installGuideAtoSidebar": {},
+            "installGuideAWMSidebar": {},
+            "installGuideIWDSidebar": {},
+            "installGuideSmartSidebar": {},
+            "installGuideOWOSidebar": {},
+            "installGuideWebSidebar": {},
+            "installGuideRichSidebar": {},
+            "codeRecipeJdbcSidebar": {
+              "link": {
+                "path": "/gef-docs/3.21.0/code-recipe/gef-jdbc/",
+                "label": "code-recipe/gef-jdbc/index"
+              }
+            },
+            "codeRecipeReportSidebar": {
+              "link": {
+                "path": "/gef-docs/3.21.0/code-recipe/gef-report/",
+                "label": "code-recipe/gef-report/index"
+              }
+            },
+            "codeRecipeRoaSidebar": {
+              "link": {
+                "path": "/gef-docs/3.21.0/code-recipe/gef-ria/",
+                "label": "code-recipe/gef-ria/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

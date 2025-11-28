@@ -1,0 +1,17 @@
+{
+  "id": "code-recipe/gef-ria/index",
+  "title": "ズームを使う",
+  "description": "-  概要",
+  "source": "@site/docs/code-recipe/gef-ria/index.md",
+  "sourceDirName": "code-recipe/gef-ria",
+  "slug": "/code-recipe/gef-ria/",
+  "permalink": "/gef-docs/next/code-recipe/gef-ria/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

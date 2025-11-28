@@ -10,10 +10,18 @@ set "ZIP_PATH=%OUTPUT_ZIP_NAME%"
 git pull
 if errorlevel 1 goto :error_git
 
+echo npm install 
 CALL npm install > NUL
+
+echo npm run clear 
+CALL npm run clear > NUL
+echo npm run docusaurus docs:version  
 CALL npm run docusaurus docs:version %VERSION% > NUL
+echo npm run build  
+CALL npm run build > NUL
 if errorlevel 1 goto :error_npm
 
+echo git tag v%VERSION%
 git tag v%VERSION%
 if errorlevel 1 goto :error_git
 
