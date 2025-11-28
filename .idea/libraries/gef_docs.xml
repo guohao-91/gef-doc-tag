@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gef-docs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gef-docs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -24,7 +24,7 @@ export default [
   },
   {
     path: '/gef-docs/',
-    component: ComponentCreator('/gef-docs/', 'aa8'),
+    component: ComponentCreator('/gef-docs/', '7d3'),
     routes: [
       {
         path: '/gef-docs/24.4.0',
@@ -84,6 +84,33 @@ export default [
         ]
       },
       {
+        path: '/gef-docs/26.4.0',
+        component: ComponentCreator('/gef-docs/26.4.0', '628'),
+        routes: [
+          {
+            path: '/gef-docs/26.4.0',
+            component: ComponentCreator('/gef-docs/26.4.0', '71d'),
+            routes: [
+              {
+                path: '/gef-docs/26.4.0/code-recipe/gef-jdbc/',
+                component: ComponentCreator('/gef-docs/26.4.0/code-recipe/gef-jdbc/', 'e1b'),
+                exact: true
+              },
+              {
+                path: '/gef-docs/26.4.0/code-recipe/gef-report/',
+                component: ComponentCreator('/gef-docs/26.4.0/code-recipe/gef-report/', '247'),
+                exact: true
+              },
+              {
+                path: '/gef-docs/26.4.0/code-recipe/gef-ria/',
+                component: ComponentCreator('/gef-docs/26.4.0/code-recipe/gef-ria/', '7de'),
+                exact: true
+              }
+            ]
+          }
+        ]
+      },
+      {
         path: '/gef-docs/3.21.0',
         component: ComponentCreator('/gef-docs/3.21.0', 'ca9'),
         routes: [
@@ -115,26 +142,29 @@ export default [
       },
       {
         path: '/gef-docs/next',
-        component: ComponentCreator('/gef-docs/next', '47e'),
+        component: ComponentCreator('/gef-docs/next', 'ab0'),
         routes: [
           {
             path: '/gef-docs/next',
-            component: ComponentCreator('/gef-docs/next', '056'),
+            component: ComponentCreator('/gef-docs/next', '5a5'),
             routes: [
               {
                 path: '/gef-docs/next/code-recipe/gef-jdbc/',
-                component: ComponentCreator('/gef-docs/next/code-recipe/gef-jdbc/', '896'),
-                exact: true
+                component: ComponentCreator('/gef-docs/next/code-recipe/gef-jdbc/', 'a1a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/gef-docs/next/code-recipe/gef-report/',
-                component: ComponentCreator('/gef-docs/next/code-recipe/gef-report/', '131'),
-                exact: true
+                component: ComponentCreator('/gef-docs/next/code-recipe/gef-report/', '6c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/gef-docs/next/code-recipe/gef-ria/',
-                component: ComponentCreator('/gef-docs/next/code-recipe/gef-ria/', 'dc1'),
-                exact: true
+                component: ComponentCreator('/gef-docs/next/code-recipe/gef-ria/', '040'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               }
             ]
           }
@@ -142,26 +172,29 @@ export default [
       },
       {
         path: '/gef-docs/',
-        component: ComponentCreator('/gef-docs/', '652'),
+        component: ComponentCreator('/gef-docs/', '086'),
         routes: [
           {
             path: '/gef-docs/',
-            component: ComponentCreator('/gef-docs/', '61c'),
+            component: ComponentCreator('/gef-docs/', '214'),
             routes: [
               {
                 path: '/gef-docs/code-recipe/gef-jdbc/',
-                component: ComponentCreator('/gef-docs/code-recipe/gef-jdbc/', '94b'),
-                exact: true
+                component: ComponentCreator('/gef-docs/code-recipe/gef-jdbc/', '3ab'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/gef-docs/code-recipe/gef-report/',
-                component: ComponentCreator('/gef-docs/code-recipe/gef-report/', '38f'),
-                exact: true
+                component: ComponentCreator('/gef-docs/code-recipe/gef-report/', 'a9d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/gef-docs/code-recipe/gef-ria/',
-                component: ComponentCreator('/gef-docs/code-recipe/gef-ria/', 'fb9'),
-                exact: true
+                component: ComponentCreator('/gef-docs/code-recipe/gef-ria/', '7fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               }
             ]
           }

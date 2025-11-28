@@ -1,0 +1,22 @@
+{
+  "id": "code-recipe/gef-jdbc/index",
+  "title": "検索する",
+  "description": "プライマリキーで検索する",
+  "source": "@site/versioned_docs/version-26.10.0/code-recipe/gef-jdbc/index.md",
+  "sourceDirName": "code-recipe/gef-jdbc",
+  "slug": "/code-recipe/gef-jdbc/",
+  "permalink": "/gef-docs/code-recipe/gef-jdbc/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "26.10.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "文字を出力する",
+    "permalink": "/gef-docs/code-recipe/gef-report/"
+  }
+}
