@@ -12,6 +12,7 @@ const config: Config = {
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+  url:  'https://localhost:3000',
   baseUrl: '/gef-docs/',
 
   organizationName: 'facebook', // Usually your GitHub org/user name.
