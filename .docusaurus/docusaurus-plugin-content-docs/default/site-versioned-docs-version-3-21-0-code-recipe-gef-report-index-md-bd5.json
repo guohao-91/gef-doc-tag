@@ -14,5 +14,13 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "codeRecipeReportSidebar"
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "検索する",
+    "permalink": "/gef-docs/3.21.0/code-recipe/gef-jdbc/"
+  },
+  "next": {
+    "title": "ズームを使う",
+    "permalink": "/gef-docs/3.21.0/code-recipe/gef-ria/"
+  }
 }

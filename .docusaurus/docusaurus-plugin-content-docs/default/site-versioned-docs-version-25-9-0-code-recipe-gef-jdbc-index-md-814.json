@@ -13,5 +13,10 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "文字を出力する",
+    "permalink": "/gef-docs/25.9.0/code-recipe/gef-report/"
   }
 }

@@ -37,8 +37,8 @@
           }
         },
         {
-          "name": "27.2.0",
-          "label": "27.2.0",
+          "name": "28.3.0",
+          "label": "28.3.0",
           "isLast": true,
           "path": "/gef-docs/",
           "mainDocId": "code-recipe/gef-jdbc/index",
@@ -64,6 +64,72 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/gef-docs/code-recipe/gef-jdbc/",
+                "label": "検索する"
+              }
+            }
+          }
+        },
+        {
+          "name": "28.2.0",
+          "label": "28.2.0",
+          "isLast": false,
+          "path": "/gef-docs/28.2.0",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/28.2.0/code-recipe/gef-jdbc/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/28.2.0/code-recipe/gef-report/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/28.2.0/code-recipe/gef-ria/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/gef-docs/28.2.0/code-recipe/gef-jdbc/",
+                "label": "検索する"
+              }
+            }
+          }
+        },
+        {
+          "name": "27.2.0",
+          "label": "27.2.0",
+          "isLast": false,
+          "path": "/gef-docs/27.2.0",
+          "mainDocId": "code-recipe/gef-jdbc/index",
+          "docs": [
+            {
+              "id": "code-recipe/gef-jdbc/index",
+              "path": "/gef-docs/27.2.0/code-recipe/gef-jdbc/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code-recipe/gef-report/index",
+              "path": "/gef-docs/27.2.0/code-recipe/gef-report/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code-recipe/gef-ria/index",
+              "path": "/gef-docs/27.2.0/code-recipe/gef-ria/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/gef-docs/27.2.0/code-recipe/gef-jdbc/",
                 "label": "検索する"
               }
             }
@@ -111,20 +177,28 @@
           "docs": [
             {
               "id": "code-recipe/gef-jdbc/index",
-              "path": "/gef-docs/26.4.0/code-recipe/gef-jdbc/"
+              "path": "/gef-docs/26.4.0/code-recipe/gef-jdbc/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-report/index",
-              "path": "/gef-docs/26.4.0/code-recipe/gef-report/"
+              "path": "/gef-docs/26.4.0/code-recipe/gef-report/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-ria/index",
-              "path": "/gef-docs/26.4.0/code-recipe/gef-ria/"
+              "path": "/gef-docs/26.4.0/code-recipe/gef-ria/",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {}
+            "tutorialSidebar": {
+              "link": {
+                "path": "/gef-docs/26.4.0/code-recipe/gef-jdbc/",
+                "label": "検索する"
+              }
+            }
           }
         },
         {
@@ -136,20 +210,28 @@
           "docs": [
             {
               "id": "code-recipe/gef-jdbc/index",
-              "path": "/gef-docs/25.9.0/code-recipe/gef-jdbc/"
+              "path": "/gef-docs/25.9.0/code-recipe/gef-jdbc/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-report/index",
-              "path": "/gef-docs/25.9.0/code-recipe/gef-report/"
+              "path": "/gef-docs/25.9.0/code-recipe/gef-report/",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-ria/index",
-              "path": "/gef-docs/25.9.0/code-recipe/gef-ria/"
+              "path": "/gef-docs/25.9.0/code-recipe/gef-ria/",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {}
+            "tutorialSidebar": {
+              "link": {
+                "path": "/gef-docs/25.9.0/code-recipe/gef-jdbc/",
+                "label": "検索する"
+              }
+            }
           }
         },
         {
@@ -162,52 +244,25 @@
             {
               "id": "code-recipe/gef-jdbc/index",
               "path": "/gef-docs/24.4.0/code-recipe/gef-jdbc/",
-              "sidebar": "codeRecipeJdbcSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-report/index",
               "path": "/gef-docs/24.4.0/code-recipe/gef-report/",
-              "sidebar": "codeRecipeReportSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-ria/index",
               "path": "/gef-docs/24.4.0/code-recipe/gef-ria/",
-              "sidebar": "codeRecipeRoaSidebar"
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "coreSidebar": {},
-            "dataAccessSidebar": {},
-            "freeQueryExportSidebar": {},
-            "jdbcSidebar": {},
-            "mvcSidebar": {},
-            "riaSidebar": {},
-            "smartSidebar": {},
-            "thinSidebar": {},
-            "installGuideAtoSidebar": {},
-            "installGuideAWMSidebar": {},
-            "installGuideIWDSidebar": {},
-            "installGuideSmartSidebar": {},
-            "installGuideOWOSidebar": {},
-            "installGuideWebSidebar": {},
-            "installGuideRichSidebar": {},
-            "codeRecipeJdbcSidebar": {
+            "tutorialSidebar": {
               "link": {
                 "path": "/gef-docs/24.4.0/code-recipe/gef-jdbc/",
-                "label": "code-recipe/gef-jdbc/index"
-              }
-            },
-            "codeRecipeReportSidebar": {
-              "link": {
-                "path": "/gef-docs/24.4.0/code-recipe/gef-report/",
-                "label": "code-recipe/gef-report/index"
-              }
-            },
-            "codeRecipeRoaSidebar": {
-              "link": {
-                "path": "/gef-docs/24.4.0/code-recipe/gef-ria/",
-                "label": "code-recipe/gef-ria/index"
+                "label": "検索する"
               }
             }
           }
@@ -222,52 +277,25 @@
             {
               "id": "code-recipe/gef-jdbc/index",
               "path": "/gef-docs/3.21.0/code-recipe/gef-jdbc/",
-              "sidebar": "codeRecipeJdbcSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-report/index",
               "path": "/gef-docs/3.21.0/code-recipe/gef-report/",
-              "sidebar": "codeRecipeReportSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "code-recipe/gef-ria/index",
               "path": "/gef-docs/3.21.0/code-recipe/gef-ria/",
-              "sidebar": "codeRecipeRoaSidebar"
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "coreSidebar": {},
-            "dataAccessSidebar": {},
-            "freeQueryExportSidebar": {},
-            "jdbcSidebar": {},
-            "mvcSidebar": {},
-            "riaSidebar": {},
-            "smartSidebar": {},
-            "thinSidebar": {},
-            "installGuideAtoSidebar": {},
-            "installGuideAWMSidebar": {},
-            "installGuideIWDSidebar": {},
-            "installGuideSmartSidebar": {},
-            "installGuideOWOSidebar": {},
-            "installGuideWebSidebar": {},
-            "installGuideRichSidebar": {},
-            "codeRecipeJdbcSidebar": {
+            "tutorialSidebar": {
               "link": {
                 "path": "/gef-docs/3.21.0/code-recipe/gef-jdbc/",
-                "label": "code-recipe/gef-jdbc/index"
-              }
-            },
-            "codeRecipeReportSidebar": {
-              "link": {
-                "path": "/gef-docs/3.21.0/code-recipe/gef-report/",
-                "label": "code-recipe/gef-report/index"
-              }
-            },
-            "codeRecipeRoaSidebar": {
-              "link": {
-                "path": "/gef-docs/3.21.0/code-recipe/gef-ria/",
-                "label": "code-recipe/gef-ria/index"
+                "label": "検索する"
               }
             }
           }

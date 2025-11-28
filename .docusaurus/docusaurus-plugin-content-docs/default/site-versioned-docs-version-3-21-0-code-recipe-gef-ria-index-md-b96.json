@@ -14,5 +14,9 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "codeRecipeRoaSidebar"
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "文字を出力する",
+    "permalink": "/gef-docs/3.21.0/code-recipe/gef-report/"
+  }
 }

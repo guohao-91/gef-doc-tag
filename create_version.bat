@@ -16,9 +16,6 @@ DEL %ZIP_PATH%
 set "JSON_FILE=versions.json"
 set "OLDAPIVERSION="
 
-echo %SOURCE_DIR%
-echo %JSON_FILE%
-echo %OLDAPIVERSION%
 
 for /f "usebackq skip=1 tokens=*" %%i in ("%JSON_FILE%") do (
     
@@ -28,10 +25,9 @@ for /f "usebackq skip=1 tokens=*" %%i in ("%JSON_FILE%") do (
     goto :done_reading
 )
 :done_reading
-echo %OLDAPIVERSION%
 
 
-REN "static\api\current" "static\api\%OLDAPIVERSION%"
+REN "static\api\current" "%OLDAPIVERSION%"
 XCOPY "%SOURCE_DIR%" "static\api\current" /E /I /Y
 
 echo npm install 
@@ -45,17 +41,17 @@ echo npm run build
 CALL npm run build > NUL
 if errorlevel 1 goto :error_npm
 
-REM echo git tag v%VERSION%
-REM git tag v%VERSION%
-REM if errorlevel 1 goto :error_git
-REM 
-REM git add .
-REM git commit -m "docs: version %VERSION%"
-REM git push origin HEAD
-REM if errorlevel 1 goto :error_git
-REM 
-REM git push origin v%VERSION%
-REM if errorlevel 1 goto :error_git
+echo git tag v%VERSION%
+git tag v%VERSION%
+if errorlevel 1 goto :error_git
+
+git add .
+git commit -m "docs: version %VERSION%"
+git push origin HEAD
+if errorlevel 1 goto :error_git
+
+git push origin v%VERSION%
+if errorlevel 1 goto :error_git
 
 powershell -Command "Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::CreateFromDirectory('%BUILD_DIR%', '%ZIP_PATH%');"
 if errorlevel 1 goto :error_zip
