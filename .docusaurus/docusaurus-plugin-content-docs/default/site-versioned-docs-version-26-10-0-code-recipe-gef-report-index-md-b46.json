@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-26.10.0/code-recipe/gef-report/index.md",
   "sourceDirName": "code-recipe/gef-report",
   "slug": "/code-recipe/gef-report/",
-  "permalink": "/gef-docs/code-recipe/gef-report/",
+  "permalink": "/gef-docs/26.10.0/code-recipe/gef-report/",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "検索する",
-    "permalink": "/gef-docs/code-recipe/gef-jdbc/"
+    "permalink": "/gef-docs/26.10.0/code-recipe/gef-jdbc/"
   },
   "next": {
     "title": "ズームを使う",
-    "permalink": "/gef-docs/code-recipe/gef-ria/"
+    "permalink": "/gef-docs/26.10.0/code-recipe/gef-ria/"
   }
 }
